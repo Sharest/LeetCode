@@ -30,8 +30,7 @@ public class ValidAnagram {
                 mapt.put(letter, 1);
             }
         }
-        boolean result = maps.equals(mapt);
-        return result;
+        return maps.equals(mapt);
     }
     //make it easy
 //    public boolean isAnagram(String s, String t) {
